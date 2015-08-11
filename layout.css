@@ -156,47 +156,19 @@ nav ul li {
   padding: 0;
 }
 
-#in_button1, #in_button2, #in_button3, #in_button4
+#menu
 {
-	width: 60px;
-	height: auto;
-	padding-top: 30%;
+	word-spacing: 15px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.1);
 }
 
-#tie, #school, #tools, #thumbsup
+#menu a:hover
 {
-	width: 150px;
-	height: 150px;
-	margin-right: 5em;
-	margin-left: 5em;
-
-	border:1px solid #AAAAAA;
-	border-radius: 50%;
-}
-
-#tie:hover
-{
-	border-color: #E7675A;
-}
-
-#school:hover
-{
-	border-color: #3FD195;
-}
-
-#tools:hover
-{
-	border-color: #41B1E0;
-}
-
-#thumbsup:hover
-{
-	border-color: #F6D76A;
-}
-
-.in_li
-{
-	text-align: center;
+	color: rgba(255, 255, 255, 0.6);
+	padding-bottom: 6px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
 }
 
 /* Firechat */
