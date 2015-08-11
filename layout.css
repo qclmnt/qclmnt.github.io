@@ -163,7 +163,7 @@ nav ul li {
 	color: rgba(0, 0, 0, 0.1);
 }
 
-#menu a:hover
+#menu a:hover, #text a:hover
 {
 	color: rgba(255, 255, 255, 0.6);
 	padding-bottom: 6px;
@@ -573,7 +573,7 @@ canvas
 .box_small .overbox_small {
 	width: 360px;
 	height: 200px;
-	padding: 130px 20px;
+	padding: 110px 20px;
 }
 
 .box:hover .overbox, .box_small:hover .overbox_small {
