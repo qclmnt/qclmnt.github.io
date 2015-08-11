@@ -661,6 +661,11 @@ footer
 	font-weight: lighter;
 }
 
+.infos a:hover
+{
+	color: #787878;
+}
+
 #contact
 {
 	margin-right: 100px;
