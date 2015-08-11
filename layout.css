@@ -9,6 +9,12 @@ h1
 	color: #333333;
 }
 
+h2
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333333;
+}
+
 span
 {
 	font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
@@ -91,13 +97,18 @@ strong
 
 #accueil h2
 {
+	text-align: center;
+}
+
+#accueil h3
+{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #AAAAAA;
 	text-align: center;
 	font-size: 17px;
 }
 
-#accueil h3
+#accueil h4
 {
 	font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
 	color: #333333;
