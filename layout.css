@@ -29,7 +29,6 @@ p
 	color: #333333;
 	font-weight: lighter;
 	font-size: 20px;
-	letter-spacing: 2px;
 	line-height: 40px;
 }
 
@@ -44,8 +43,9 @@ a
 #accueil
 {
 	width: 100%;
-	height: 900px;
-	padding-top: 110px;
+	height: 90vh;
+	min-height: 600px;
+	margin-top: 8%;
 }
 
 strong
@@ -53,20 +53,15 @@ strong
 	color: #333333;
 }
 
-#letter
-{
-	width: auto;
-	height: auto;
-	position: absolute;
-	right: 20px;
-	top: 20px;
-}
-
 #ac_mail
 {
 	width: 40px;
 	height: auto;
 	opacity: 0.3;
+	margin-top: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #ac_mail:hover
@@ -121,7 +116,7 @@ strong
 	width: 20px;
 	height: auto;
 	margin: auto;
-	margin-top: 150px;
+	margin-top: 8%;
 	display: block;
 }
 
