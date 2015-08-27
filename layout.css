@@ -1,6 +1,7 @@
 body
 {
 	margin: auto;
+	min-width: 1020px;
 }
 
 h1
@@ -717,12 +718,4 @@ footer
   stroke-width: 2px;
   stroke-dashoffset: 0;
   stroke-dasharray: 760;
-}
-
-@media (max-width: 1020px)
-{
-	body
-	{
-		background-color: blue;
-	}
 }
