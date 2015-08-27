@@ -171,9 +171,8 @@ nav ul li {
 #firechat
 {
 	width: 100%;
-	height: 2000px;
-
-	padding-top: 200px;
+	height: auto;
+	margin-top: 100px;
 }
 
 #text
@@ -184,9 +183,9 @@ nav ul li {
 
 .screenshot
 {
-	padding-top: 200px;
+	margin-top: 100px;
 	width: 100%;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 }
 
 #screenshot1
@@ -211,8 +210,7 @@ nav ul li {
 .more
 {
 	width: 100%;
-	height: 900px;
-	position: relative;
+	height: auto;
 }
 
 @media (max-width: 1300px)
@@ -228,8 +226,6 @@ nav ul li {
 	.more
 	{
 		width: 100%;
-		height: 700px;
-		position: relative;
 	}
 }
 
@@ -238,8 +234,6 @@ nav ul li {
 	.more
 	{
 		width: 100%;
-		height: 600px;
-		position: relative;
 	}
 
 	#text
@@ -248,30 +242,24 @@ nav ul li {
 	}
 }
 
-.pictures, .rightMore
+.pictures
 {
-	height: 100%;
-	width: 50%;
-	position: absolute;
+	height: 400px;
+	width: 100%;
+	margin-top: 100px;
 }
 
 #firechat .pictures
 {
-	background: url("images/chezFirechat.png") center;
+	background: url("images/chezFirechat2.png") center;
 	background-size: cover;
-}
-
-.rightMore
-{
-	right: 0px;
 }
 
 .ticket
 {
-	width: 60%;
-	height: 70%;
+	width: 400px;
+	height: 500px;
 	margin: auto;
-	margin-top: 17%;
 	border-radius: 1%;
 	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
 }
@@ -285,13 +273,22 @@ nav ul li {
 	border-top-right-radius: 1%;
 }
 
+#titleTicket
+{
+	padding-left: 35px;
+	letter-spacing: 0px;
+	line-height: 25px;
+	font-family: "Helvetica Neue Bold", Helvetica, Arial, sans-serif;
+	color: white;
+	font-size: 25px;
+	padding-top: 30px;
+}
+
 /* Gym Suédoise */
 
 #gymsuedoise
 {
 	width: 100%;
-	height: 2300px;
-	margin-top: 600px;
 }
 
 #gymsuedoise img
@@ -313,7 +310,7 @@ nav ul li {
 
 #gymsuedoise .pictures
 {
-	background: url("images/chezGS.png") center;
+	background: url("images/chezGS2.png") center;
 	background-size: cover;
 }
 
@@ -431,8 +428,8 @@ nav ul li {
 #epf
 {
 	width: 100%;
-	height: 1400px;
-	padding-top: 200px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 #epf #text
