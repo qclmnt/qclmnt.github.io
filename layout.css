@@ -249,6 +249,22 @@ nav ul li {
 	margin-top: 100px;
 }
 
+@media (max-width: 1350px)
+{
+	.pictures
+	{
+		height: 340px;
+	}
+}
+
+@media (max-width: 1200px)
+{
+	.pictures
+	{
+		height: 280px;
+	}
+}
+
 #firechat .pictures
 {
 	background: url("images/chezFirechat2.png") center;
@@ -289,6 +305,7 @@ nav ul li {
 #gymsuedoise
 {
 	width: 100%;
+	margin-top: 100px;
 }
 
 #gymsuedoise img
@@ -600,7 +617,7 @@ canvas
 }
 
 .box .tagline, .box_small .tagline {
-  font-size: 0.8em;
+  font-size: 1em;
   opacity: 0;
   transition-delay: 0.2s;
   transition-duration: 0.2s;
@@ -700,4 +717,12 @@ footer
   stroke-width: 2px;
   stroke-dashoffset: 0;
   stroke-dasharray: 760;
+}
+
+@media (max-width: 1020px)
+{
+	body
+	{
+		background-color: blue;
+	}
 }
