@@ -714,7 +714,7 @@ footer
   stroke-dasharray: 760;
 }
 
-@media (max-device-width: 1000px) {
+@media (max-device-width: 1000px)  and (orientation: portrait) {
 	#me
 	{
 		width: 400px;
@@ -746,5 +746,45 @@ footer
 	{
 		width: 40px;
 		margin-top: 20%;
+	}
+}
+
+@media (max-device-width: 1000px)  and (orientation: landscape) {
+	#me
+	{
+		width: 100px;
+		height: 150px;
+	}
+
+	#accueil
+	{
+		margin-top: 5%;
+	}
+
+	#ac_mail
+	{
+		width: 50px;
+		margin-top: 5%;
+	}
+
+	#accueil h1
+	{
+		font-size: 20px;
+	}
+
+	#accueil h3
+	{
+		font-size: 15px;
+	}
+
+	#accueil h4
+	{
+		font-size: 15px;
+	}
+
+	#ac_arrow
+	{
+		width: 20px;
+		margin-top: 7%;
 	}
 }
