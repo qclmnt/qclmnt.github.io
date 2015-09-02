@@ -80,12 +80,6 @@ strong
 	margin-right: auto;
 }
 
-#me:hover
-{
-	background: url('images/me_2.png');
-	background-size: cover;
-}
-
 #accueil h1
 {
 	text-align: center;
