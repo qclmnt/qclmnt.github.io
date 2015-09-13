@@ -173,7 +173,7 @@ nav ul li {
 #text
 {
 	padding-left: 80px;
-	padding-right: 500px;
+	padding-right: 490px;
 }
 
 .screenshot
@@ -554,7 +554,7 @@ canvas
 }
 
 .box .overbox, .box_small .overbox_small {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
   top: 0;
   left: 0;
@@ -595,7 +595,7 @@ canvas
 }
 
 .box .title, .box_small .title {
-  font-size: 2.5em;
+  font-size: 2.3em;
   text-transform: uppercase;
   opacity: 0;
   transition-delay: 0.1s;
