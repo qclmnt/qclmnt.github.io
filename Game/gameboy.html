@@ -2,11 +2,11 @@
 <html>
 
 <style>
-	canvas {
-		background: green;
-		width: 100%; /* Regarde ce que ca veut dire */
-		aspect-ratio: 1/1; /* Regarde ce que ca veut dire */
-	}
+  canvas {
+    background: green;
+    width: 100%; /* Regarde ce que ca veut dire */
+    aspect-ratio: 1/1; /* Regarde ce que ca veut dire */
+  }
 </style>
 
 <body>
@@ -34,7 +34,7 @@
     <circle cx="50" cy="50" r="47" fill="url(#grad2)" stroke="black" stroke-width="1.5px" />
     <circle cx="50" cy="50" r="44" fill="url(#grad3)" />
     <circle cx="50" cy="50" r="20" fill="#cccccc" stroke="black" stroke-width="1px" onclick="alert('CENTER');" />
-    <path d="M50,14 54,22 46,22Z" fill="rgba(0,0,0,0.8)" onclick="alert('UP');" />
+    <path d="M50,14 54,22 46,22Z" fill="rgba(0,0,0,0.8)" ontouchstart="console.log('Touch Start');" ontouchend="console.log('Touch End');" ontouchcancel="console.log('Touch Cancel');" ontouchmove="console.log('Touch Move')"/>
     <path d="M50,86 54,78 46,78Z" fill="rgba(0,0,0,0.8)" onclick="alert('DOWN');" />
     <path d="M14,50 22,54 22,46Z" fill="rgba(0,0,0,0.8)" onclick="alert('LEFT');" />
     <path d="M86,50 78,54 78,46Z" fill="rgba(0,0,0,0.8)" onclick="alert('RIGHT');" />
