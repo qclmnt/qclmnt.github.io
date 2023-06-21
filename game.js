@@ -8,6 +8,15 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
+function addMarker(location, map) {
+  // Add the marker at the clicked location, and add the next-available label
+  // from the array of alphabetical characters.
+  new google.maps.Marker({
+    position: location,
+    map: map,
+  });
+}
+
 
 function initialize() {
 
@@ -39,6 +48,11 @@ function initialize() {
     streetViewControl: false,
     mapTypeControl: false,
     fullscreenControl: false
+  });
+
+  // This event listener calls addMarker() when the map is clicked.
+  google.maps.event.addListener(map, "click", (event) => {
+    addMarker(event.latLng, map);
   });
   
   const panorama = new google.maps.StreetViewPanorama(
