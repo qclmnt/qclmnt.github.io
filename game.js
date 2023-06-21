@@ -8,10 +8,17 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
+var currentMarker = null
+
 function addMarker(location, map) {
+
+  if (currentMarker != null) {
+    currentMarker.setMap(null);
+  }
+
   // Add the marker at the clicked location, and add the next-available label
   // from the array of alphabetical characters.
-  new google.maps.Marker({
+  currentMarker = new google.maps.Marker({
     position: location,
     map: map,
   });
