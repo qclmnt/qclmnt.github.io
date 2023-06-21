@@ -8,7 +8,8 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-var currentMarker = null
+var currentMarker = null;
+var currentView = null;
 
 function addMarker(location, map) {
 
@@ -24,6 +25,19 @@ function addMarker(location, map) {
   });
 
   document.getElementById("validate").hidden = false;
+}
+
+function validate() {
+  var distanceInMeters = google.maps.geometry.spherical.computeDistanceBetween(currentMarker.position, currentView);
+  distanceInMeters = Math.round(distanceInMeters); // Round
+
+  if (distanceInMeters > 999) {
+    const distanceInKm = Math.round(distanceInMeters/1000);
+    console.log(distanceInKm + " km");
+  } else {
+     console.log(distanceInMeters + "m");
+  }
+  
 }
 
 
@@ -51,6 +65,8 @@ function initialize() {
 
 
   const randomPoint = points[getRandomInt(points.length)];
+  currentView = randomPoint;
+
   const map = new google.maps.Map(document.getElementById("map"), {
     center: {lat: 46.4239767, lng: 2.2399612}, // Center of France
     zoom: 4,
