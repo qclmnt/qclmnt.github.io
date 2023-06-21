@@ -22,6 +22,8 @@ function addMarker(location, map) {
     position: location,
     map: map,
   });
+
+  document.getElementById("validate").hidden = false;
 }
 
 
