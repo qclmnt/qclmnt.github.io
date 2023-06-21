@@ -34,9 +34,13 @@ function initialize() {
 
   const randomPoint = points[getRandomInt(points.length)];
   const map = new google.maps.Map(document.getElementById("map"), {
-    center: randomPoint,
-    zoom: 14,
+    center: {lat: 46.4239767, lng: 2.2399612}, // Center of France
+    zoom: 4,
+    streetViewControl: false,
+    mapTypeControl: false,
+    fullscreenControl: false
   });
+  
   const panorama = new google.maps.StreetViewPanorama(
     document.getElementById("pano"),
     {
@@ -45,10 +49,12 @@ function initialize() {
         heading: 34,
         pitch: 10,
       },
+      fullscreenControl: false,
+      addressControl: false,
+      showRoadLabels: false
     }
   );
 
-  map.setStreetView(panorama);
 }
 
 window.initialize = initialize;
