@@ -19,7 +19,7 @@ body {
 #pano {
   height: 100%;
   width: 100%;
-    position: absolute;
+  position: absolute;
 }
 
 #map {
@@ -28,5 +28,15 @@ body {
   right: -10px;
   height: 200px;
   width: 300px;
+}
+
+#validate {
+  position: relative;
+  z-index: 10;
+  right: -10px;
+  top: 14px;
+  height: 40px;
+  width:300px;
+  background: blueviolet;
 }
 
